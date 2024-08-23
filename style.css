@@ -219,10 +219,6 @@ header {
     transform: rotate(180deg);
 }
 
-.nav-item.dropdown.active .dropdown-menu {
-    display: flex;
-}
-
 /* Swiper */
 .hero { 
     position: relative;
