@@ -220,7 +220,7 @@ header {
 }
 
 .nav-item.dropdown.active .dropdown-menu {
-    display: block;
+    display: flex;
 }
 
 /* Swiper */
