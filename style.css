@@ -500,7 +500,8 @@ header {
         position: absolute;
         top: 0;
         right: 0;
-        padding-top: 40px;
+        padding-right: 0;
+        padding-top: 3rem;
         transition: 0.5s ease-in-out 0s !important;
     }
     .dropdown-menu {
