@@ -1,3 +1,11 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-y: hidden;
+}
+
 .about-sec {
     position: relative;
     top: 6.7rem;
@@ -9,7 +17,6 @@ section {
     max-width: 1200px !important;
     margin: 0 auto !important;
     width: 100% !important;
-    overflow-x: hidden;
 }
 
 .breadcrumb {
