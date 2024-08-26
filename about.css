@@ -385,6 +385,7 @@ section {
     color: #6C6C6C;
     font-size: 24px;
     line-height: 36px;
+    width: 90%;
 }
 
 #ab-silder-bg{
@@ -732,6 +733,9 @@ section {
     .mission-vision .mission,
     .mission-vision .vision {
         padding: 8px 0;
+    }
+    .journey-content p {
+        width: 100%;
     }
     .career-product section {
         flex-direction: column;
