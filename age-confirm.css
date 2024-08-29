@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat:wght@600&display=swap');
+
+.age-container {
+    background: linear-gradient(110.54deg, rgb(0, 0, 0) -6.67%, rgb(0, 0, 0) 93.07%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    --bs-backdrop-zindex: 1050;
+    --bs-backdrop-bg: #000;
+    --bs-backdrop-opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+}
+
+.age-modal {
+    background-image: url(images/bg1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1000;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.age-confirm-modal {
+    max-width: 740px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: auto;
+    min-height: 100%;
+}
+
+.age-modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    word-break: break-word;
+    background-color: transparent;
+    border: none;
+}
+
+.age-modal-content .content-logo {
+    margin: 0 auto 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.age-modal-content .content-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.age-modal-content h3 {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 89px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.age-modal-content p {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #fff;
+    margin-bottom: 1.6rem;
+}
+
+.age-modal-content .age-btns {
+    padding: 30px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.age-modal-content .age-btns a {
+    min-width: 100px;
+    border-radius: 4px;
+    padding: 12px 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 32px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-color: #fff;
+}
+
+.age-modal-content .age-btns a:first-child {
+    background-color: #fff;
+    color: #000;
+}
+
+.age-modal-content .age-btns a:last-child {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid;
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .age-modal-content .content-logo {
+        margin: 0 auto 24px;
+        width: 50px;
+        height: 50px;
+    }
+    .age-modal-content h3 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .age-modal-content p {
+        font-size: 30px;
+    }
+}

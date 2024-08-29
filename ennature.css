@@ -1,0 +1,134 @@
+.about-left img {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.ennature-btn {
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    background-color: #048c44;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 24px;
+    text-align: center;
+    transition: all .3s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ennature-btn:hover {
+    background-color: #fff;
+    color: #048c44;
+}
+
+.innovation-container.ennature .innovation {
+    cursor: auto !important;
+}
+
+.certification-container.ennature .certification-content {
+    display: flex !important;
+    padding: 10px;
+}
+
+.certification-container.ennature .certification-col {
+    width: 20%;
+}
+
+.certification-container.ennature img {
+    border-radius: 12px;
+}
+
+.certification-container.ennature .certificate-img {
+    width: 85%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.resources {
+    margin-top: 40px !important;
+    margin-bottom: 70px !important;
+    padding: 0 20px;
+}
+
+.resources h2 {
+    color: #333333;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+.resource-content {
+    background-color: #fff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+.resource-content img {
+    margin-bottom: 20px;
+}
+
+.resource-content h3 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.resource-content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.resource-content a .dwnld-btn {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    fill: #2C6EB5;
+    color: #2C6EB5;
+    background-color: #2F5B2800;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2C6EB5;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 12px 24px;
+    text-align: center;
+    transition: all .3s;
+    width: 70%;
+}
+
+.resource-content a .dwnld-btn i {
+    width: 1rem;
+    height: auto;
+    margin-right: 5px;
+}
+
+@media (max-width: 900px) {
+    .certification-container.ennature .certification-content {
+        flex-wrap: wrap;
+    }
+    .certification-container.ennature .certification-col {
+        width: 50%;
+    }
+}
+
+@media (max-width: 650px) {
+    .certification-container.ennature .certification-col {
+        width: 100%;
+    }
+    .resources h2 {
+        font-size: 30px;
+    }
+    .resources {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

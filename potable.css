@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+    overflow-x: hidden !important;
+}
+
+.navbar {
+    background-color: #000;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+.hero-content {
+    max-width: 960px !important;
+    width: 100%;
+    margin: 0 auto !important;
+    height: 90%;
+    top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section h2 {
+    position: absolute;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 79px;
+    color: #EDBC57;
+    font-family: "Arvo", serif !important;
+    text-align: left;
+}
+
+
+
+.hero-section div {
+    position: relative;
+    z-index: 2;
+}
+
+/* Products Section Styles */
+.products-section {
+    background-color: #000;
+    color: white;
+    text-align: left;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.product-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: url(images/perfection-bg.jpg);
+    background-position: center center;
+    padding: 0 20px;
+    padding-bottom: 80px;
+}
+
+.products-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+.products-section p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    max-width: 90%;
+    margin-bottom: 1.6rem;
+}
+
+.products-section .btn {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: #fff;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 2px solid white;
+    background-color: #2F5B2800;
+    transition: all .3s;
+}
+
+.products-section img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 30px;
+    opacity: 1; 
+    transform: none; 
+}
+
+/* Spirit of Section Styles */
+
+.drink-container {
+    position: relative;
+    background-image: linear-gradient(180deg, #282E75 0%, #060B0F 100%);
+    padding: 80px 0;
+}
+
+.spirit-of {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.spirit-of-heading {
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.spirit-of-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    padding: 20px 0;
+}
+
+.spirit-of-text {
+    max-width: 60%;
+    padding-left: 20px;
+}
+
+.spirit-of-text h2 {
+    color: #EDBC57;
+    font-family: "Arvo", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 56px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.spirit-of-text p {
+    color: #fff;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.spirit-of-image {
+    max-width: 40%;
+}
+
+.spirit-of-image img {
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+    object-fit: contain;
+}
+
+.spirit-of::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: url(images/amazing-sr-bg.png) no-repeat left center;
+    background-size: contain;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.spirit-of::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/dotted-texure.png) repeat;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+/* Amazing Vodka Section Styles */
+.amazing-vodka {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.amazing-vodka-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    gap: 0;
+}
+
+.amazing-vodka-text {
+    width: 40%;
+}
+
+.amazing-vodka-text h2 {
+    color: #EDBC57;
+    font-family: "Arvo", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.amazing-vodka-text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 20px;
+    color: #fff;
+}
+
+.amazing-vodka-image {
+    width: 60%;
+}
+
+.amazing-vodka-image img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+.amazing-vodka::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 140px;
+    width: 50%;
+    height: 100%;
+    background: url(images/amazing-vodka-bg.png) no-repeat center right;
+    background-size: contain;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.amazing-vodka::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/dotted-texure.png) repeat;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+
+.soulmate-whiskey {
+position: relative;
+width: 100%;
+height: 100%;
+color: white;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+box-sizing: border-box;
+}
+
+.soulmate-whiskey-content {
+display: flex;
+flex-direction: row; 
+align-items: center;
+justify-content: space-between;
+max-width: 1200px;
+width: 100%;
+box-sizing: border-box;
+z-index: 1;
+}
+
+.soulmate-whiskey-text {
+flex: 1;
+max-width: 49.5%;
+padding-right: 20px; 
+}
+
+.soulmate-whiskey-text h2 {
+    color: #EDBC57;
+    font-family: "Arvo", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.soulmate-whiskey-text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 20px;
+    color: #fff;}
+
+.soulmate-whiskey-image {
+max-width: 50%;
+z-index: 1;
+}
+
+.soulmate-whiskey-image img {
+width: 100%;
+height: auto;
+max-height: 70vh;
+object-fit: contain;
+}
+
+.soulmate-whiskey::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0px;
+width: 50%;
+height: 100%;
+background: url(images/soulmate-bg.png) no-repeat left center;
+background-size: contain;
+opacity: 0.8;
+z-index: 1;
+}
+
+.soulmate-whiskey::after {
+content: "";
+position: absolute;
+top: 0px;
+left: 0;
+width: 100%;
+height: 100%;
+background: url(images/dotted-texure.png) repeat;
+background-size: cover;
+opacity: 0.6;
+z-index: 2;
+}
+
+
+.delicious-cocktail {
+position: relative;
+height: 70vh;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+text-align: center;
+color: white;
+overflow: hidden;
+padding: 0 20px; 
+}
+
+.background-video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1;
+}
+
+.content {
+position: relative;
+z-index: 1;
+display: flex;
+flex-direction: column;
+align-items: flex-end; 
+justify-content: center; 
+text-align: right;
+padding-right: 30px;
+}
+
+.delicious-cocktail h1 {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 20px;
+    text-align: end;
+}
+
+.learn-btn {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    padding: 0.875rem 2.1875rem;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.learn-btn:hover {
+border-color: aliceblue;
+}
+/* enadivision */
+.enadivision {
+background: url(images/barrels.png) no-repeat center center/cover;
+color: #fff;
+text-align: center;
+padding: 100px 20px;
+}
+
+.enadivision .content-wrapper {
+max-width: 100%;
+margin: 0 auto;
+}
+
+.enadivision h1 {
+font-size: 3rem;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.enadivision p {
+font-size: 1.2rem;
+line-height: 1.6;
+margin-bottom: 30px;
+}
+
+.enadivision .cta-button {
+padding: 15px 30px;
+background-color: transparent;
+color: #fff;
+border: 2px solid #fff;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+}
+
+.enadivision .cta-button:hover {
+background-color: #fff;
+color: #000;
+}
+.footer {
+background-color: #0A0A0A; 
+color: #ffffff; 
+padding: 50px 20px;
+}
+
+.footer-top {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.footer-top h2 {
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 20px;
+color: #ffffff; 
+}
+
+.subscribe-form {
+display: inline-flex;
+max-width: 650px;
+width: 100%;
+border: 1px solid #ffffff;
+border-radius: 4px;
+}
+
+.subscribe-form input {
+flex: 1;
+padding: 15px;
+border: none;
+outline: none;
+font-size: 1rem;
+background-color: transparent;
+color: #ffffff; 
+}
+
+.subscribe-form input::placeholder {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #9B9C9D;
+}
+
+.subscribe-form button {
+background-color: #ffffff; 
+color: #000000; 
+padding: 15px 30px;
+border: none;
+cursor: pointer;
+font-size: 16px;
+font-weight: 500;
+}
+
+.footer-bottom {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 20px;
+padding-top: 30px;
+}
+
+.footer-left {
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.footer-logo {
+max-width: 50px;
+margin-bottom: 10px;
+}
+
+.legal-link {
+color: #aaaaaa; 
+text-decoration: none;
+}
+
+.legal-link:hover {
+color: #ffffff; /
+}
+
+.footer-middle {
+flex: 1;
+text-align: center;
+margin-left: 120px;
+}
+
+.footer-middle h3 {
+margin-bottom: 10px;
+color: #ffffff; 
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.footer-middle address {
+font-style: normal;
+font-size: 16px;
+line-height: 30px;
+color: #cccccc; 
+}
+
+.footer-right {
+flex: 1;
+text-align: end;
+}
+
+.footer-right h3 {
+margin-bottom: 10px;
+color: #ffffff; 
+font-size: 24px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.social-icons a {
+font-size: 25px;
+color: #ffffff; 
+margin-right: 15px;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.social-icons a:hover {
+color: #cccccc;
+}
+
+@media (max-width: 992px) {
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+.navbar .nav-link {
+font-size: 1rem;
+margin-left: 10px;
+}
+
+.hero-section {
+font-size: 2.5rem;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.products-section {
+    padding: 40px 0;
+}
+
+.product-content {
+    padding-bottom: 40px;
+}
+
+.spirit-of-text h2,
+.amazing-vodka-text h2,
+.soulmate-whiskey-text h2 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.spirit-of-text p,
+.amazing-vodka-text p,
+.soulmate-whiskey-text p {
+font-size: 16px;
+}
+
+.spirit-of-content {
+flex-direction: column-reverse;
+}
+
+.amazing-vodka-content,
+.soulmate-whiskey-content {
+    flex-direction: column;
+}
+
+.spirit-of-image,
+.amazing-vodka-image,
+.soulmate-whiskey-image {
+max-width: 100%;
+margin-bottom: 20px;
+}
+
+.spirit-of-image img,
+.amazing-vodka-image img,
+.soulmate-whiskey-image img {
+    max-height: 100%;
+}
+
+.spirit-of-text,
+.amazing-vodka-text,
+.soulmate-whiskey-text {
+max-width: 100%;
+width: 100%;
+padding: 10px;
+}
+
+.content {
+    text-align: center;
+    padding: 0;
+    align-items: center;
+}
+
+.delicious-cocktail h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+.enadivision {
+padding: 50px 20px;
+}
+
+.enadivision h1 {
+font-size: 36px;
+line-height: 42px;
+}
+
+.enadivision p {
+    font-size: 16px;
+}
+
+.footer-bottom {
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+margin-bottom: 20px;
+}
+
+.footer-left {
+    flex-direction: column;
+}
+
+.footer-middle {
+    margin-left: 0;
+}
+
+.footer-right {
+    text-align: center;
+}
+
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 35px !important;
+    }
+    
+    .fixed-top {
+        padding: 0 !important;
+    }
+    
+    nav .container-fluid {
+        padding: 10px;
+    }
+.hero-content {
+    justify-content: center;
+}
+.hero-section h2 {
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.products-section h2 {
+    font-size: 36px;
+}
+
+.spirit-of-heading {
+    font-size: 36px;
+}
+
+.products-section p {
+    max-width: 100%;
+}
+
+.subscribe-form input,
+.subscribe-form button {
+    padding: 10px;
+}
+
+.subscribe-form input {
+    width: 80%;
+}
+
+.footer-middle h3,
+.footer-right h3 {
+    font-size: 20px;
+}
+}
