@@ -23,6 +23,44 @@ body {
     overflow-x: hidden;
 }
 
+.sub-sec {
+    position: relative;
+    top: 6.7rem;
+    padding: 20px 0;
+    background-color: #F5F5F5;
+}
+
+.breadcrumb {
+    padding: 10px 20px !important;
+    display: flex !important;
+    align-items: center;
+}
+
+.breadcrumb ul {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+.breadcrumb ul li a,
+.breadcrumb ul li {
+    font-size: 14px;
+    line-height: 18px;
+    color: #606060;
+    text-decoration: none !important;
+}
+
+.breadcrumb ul li {
+    padding: 0 10px;
+}
+
+.breadcrumb ul li:last-child {
+    color: rgba(0, 0, 0, 0.5);
+}
+
 #td-btn{
     position: fixed;
     bottom: 20px;
@@ -1547,6 +1585,14 @@ padding: 0px 10px;
 }
 
 @media (max-width: 767px) {
+    .sub-sec {
+        max-width: 767px;
+        top: 4rem;
+    }
+    .breadcrumb {
+        padding: 16px 0 !important;
+        margin-bottom: 10px !important;
+    }
     .logo img {
         width: 120px;
         height: 50px;
