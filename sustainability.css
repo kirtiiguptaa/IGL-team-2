@@ -1,0 +1,439 @@
+.slick-slider .slick-list {
+    height: auto !important;
+}
+button.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    background-color: #509f46;
+    border: 2px solid #509f46;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sustain-head {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #2C6EB5;
+    letter-spacing: 0.2em;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+.about-right-first .about-img img {
+    height: auto;
+}
+.sustainability-btn {
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 50px;
+    background-color: #509F46;
+    margin-top: 20px;
+}
+
+/* Initiatives */
+.initiatives {
+    position: relative;
+    background-image: url(images/polygon.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.initiatives .initiative-content {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.sustain-subhead{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px !important;
+}
+
+.initiative-container {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex !important;
+}
+.initiative-container .slick-track .slick-slide{
+    margin: 0px 10px;
+}
+.product-card {
+    padding: 0;
+    background-color: #DEF7E5;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.product-card img {
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+}
+.product-card h3 {
+    margin-bottom: 0px;
+    color: #0E0E0E;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+.initiatives button.slick-arrow {
+    display: none !important;
+    width: 40px !important;
+    top: unset !important;
+    bottom: -55px !important;
+}
+.initiatives .initiative-p {
+    left: 42%;
+}
+.initiatives .initiative-n {
+    right: 39%;
+}
+
+/* Vision */
+.sustain-vision {
+    margin: 60px auto !important;
+}
+.vision-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vision-container .vision-img {
+    width: 48%;
+    padding: 10px;
+    text-align: center;
+}
+.vision-container .vision-img img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.vision-container .vision-content {
+    width: 52%;
+    padding: 10px;
+}
+.vision-content h2 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+.vision-content h5 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+.vision-content p {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* Company goal */
+.company-goal {
+    position: relative;
+    margin-top: 0px !important;
+    margin-bottom: 80px !important;
+    padding: 0;
+}
+.company-slider {
+    display: flex !important;
+    background-color: #fff;
+}
+.company-content {
+    width: 50%;
+    padding: 30px;
+}
+.company-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.company-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Company slider */
+.company-goal .company-p {
+    left: -15px !important;
+}
+.company-goal .company-n {
+    right: -15px !important;
+}
+button.slick-arrow i {
+    font-size: 14px;
+    color: #fff;
+}
+button.slick-arrow:hover {
+    background-color: #509F46;
+}
+
+/* Values */
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.value-container {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.value-container:last-child {
+    margin-bottom: 40px;
+}
+.value-content {
+    width: calc(100% / 3);
+    padding: 10px;
+    text-align: center;
+}
+.value-content .value-icon {
+    margin-bottom: 10px;
+}
+.value-content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #242424;
+    margin-bottom: 20px;
+}
+.value-content p {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+
+/* Case study */
+.case-studies {
+    position: relative;
+    margin: 60px auto !important;
+}
+.case-study {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.case-study .case-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 495px;
+}
+.case-study .slick-slide {
+    text-align: center;
+    margin-right: 20px;
+}
+.case-item .case-img {
+    padding: 16px 0;
+    height: 220px;
+}
+.case-item .case-img img {
+    height: 100%;
+    margin: 0 auto;
+}
+.case-content {
+    padding: 15px 20px 30px;
+    text-align: left;
+}
+.case-content h3 {
+    color: #0E0E0E;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+.case-content p {
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 1.6rem;
+}
+.case-content .case-btn {
+    text-decoration: none;
+    color: #2C6EB5;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    transition: all .5s linear;
+}
+.case-content .case-btn:hover {
+    opacity: 0.8;
+}
+.case-content .case-btn:hover i {
+    margin-left: 2px;
+}
+.case-studies button.slick-arrow {
+    top: unset !important;
+    bottom: -16px !important;
+}
+.case-p {
+    left: 40% !important;
+}
+.case-n {
+    right: 38% !important;
+}
+
+/* Responsibility */
+.responsibility {
+    background-color: #3E7232;
+    background-image: url(images/earth-bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding: 70px 0px 40px 0px;
+}
+.responsibility section {
+    min-height: 420px;
+    align-items: flex-start;
+}
+.responsibility-column {
+    position: relative;
+    min-height: 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.responsibility-column h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.responsibility-column p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    padding: 10px;
+    text-align: justify;
+    width: 64.196%;
+}
+
+@media (max-width: 1024px) {
+    .initiatives button.slick-arrow {
+        display: flex !important;
+    }
+    .value-container {
+        flex-wrap: wrap;
+    }
+    .value-content {
+        width: 50%;
+    }
+    .case-study .case-item {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 850px) {
+    .case-study .slick-slide {
+        margin-right: 0;
+    }
+    .initiatives button.slick-arrow,
+    .case-studies button.slick-arrow {
+        display: none !important;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 15px !important;
+    }
+    .case-studies .slick-dots {
+        bottom: -20px !important;
+        width: 94% !important;
+    }
+    .case-content h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sustain-head br {
+        display: none;
+    }
+    .sustain-head {
+        font-size: 20px;
+    }
+    .sustain-subhead {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .vision-content h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .about-right-first .about-img img {
+        width: auto;
+    }
+    .vision-container {
+        flex-direction: column;
+    }
+    .vision-container .vision-img {
+        width: 100%;
+    }
+    .vision-container .vision-content {
+        width: 100%;
+    }
+    .r-slider {
+        padding: 10px;
+    }
+    .case-studies {
+        margin: 30px 0 !important;
+    }
+    .company-slider {
+        flex-direction: column;
+    }
+    .company-content {
+        width: 100%;
+        padding: 10px;
+    }
+    .company-img {
+        width: 100%;
+    }
+    .company-goal button.slick-arrow {
+        display: none !important;
+    }
+    .value-container {
+        flex-direction: column;
+    }
+    .value-content {
+        width: 100%;
+    }
+    .responsibility-column h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .responsibility-column p {
+        width: 100%;
+    }
+}
