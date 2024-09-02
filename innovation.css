@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Montserrat:wght@100..900&display=swap');
+section {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+.logo {
+    padding: 0;
+    width: 94px;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+}
+.nav-item a {
+    color: #fff;
+}
+.nav-item a:hover {
+    color: #fff;
+}
+.innovation {
+    position: relative;
+    top: 5.2rem;
+}
+.innovation-wrapper {
+    background-color: #000;
+}
+.menu-icon div {
+    background-color: #3781C0;
+}
+.innovation-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+.innovation-left {
+    padding: 60px 0 30px 0px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.innovation-left h1 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 79px;
+    color: #2C6EB5;
+    background: -webkit-linear-gradient(0, #3BEE3B -3.41%, #3781C0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-break: break-word;
+    margin-bottom: 20px;
+}
+.innovation-left p {
+    color: #6c6c6c;
+    margin-bottom: 1.6rem;
+}
+.innovation-right {
+    width: 40%;
+    padding: 10px;
+}
+.innovation-right img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+.innovation-welcome {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.innovation-welcome h2 {
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.welcome-container {
+    width: 100%;
+    display: flex;
+}
+.welcome-content {
+    width: 47.75%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 0;
+}
+.welcome-content-text {
+    text-align: right;
+    width: 100%;
+}
+.welcome-content-text img {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.welcome-content-text p {
+    color: #6c6c6c;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 20px;
+    margin-bottom: 1.6em;
+}
+.welcome-img {
+    padding: 10px;
+}
+.welcome-content-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.welcome-content-img img {
+    max-width: 100%;
+    height: auto;
+}
+.welcome-container-col {
+    display: flex;
+    width: 100%;
+}
+.welcome-container-col .welcome-content {
+    width: 50%;
+}
+.welcome-right {
+    padding: 0 0 0 20px;
+}
+.welcome-right-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.welcome-right-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.welcome-right-content p {
+    color: #6c6c6c;
+    margin-bottom: 20px;
+}
+
+.usp-container {
+    position: relative;
+    background-color: #f5f5f5;
+}
+.wrapper-container {
+    width: 100%;
+}
+.usp-container .usp {
+    padding-top: 75px;
+    margin-bottom: 0px;
+}
+.usp-wrapper {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.usp-wrapper h2 {
+    color: #242424;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.usp-box {
+    display: flex;
+    padding: 0 20px;
+}
+.usp-box .usp-card {
+    width: 74px;
+    height: 413px;
+    position: relative;
+    cursor: pointer;
+    border-left: 1px solid #3781C0;
+    flex: 1;
+}
+.usp-box .usp-card.active {
+    border-left: none;
+    width: 100%;
+    padding: 0 50px 0 0;
+    flex: 9 !important;
+}
+.usp-box .usp-card.active h3 {
+    position: relative;
+    left: 0;
+    bottom: auto;
+    top: 0;
+    transform: none;
+    color: #6C6C6C;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    margin-bottom: 45px;
+}
+.usp-box .usp-card h3 {
+    font-family: "Montserrat", Sans-serif;
+    left: calc(50% - 0px);
+    bottom: -37px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 74px;
+    transform: rotate(-90deg);
+    margin: 0;
+    transform-origin: left;
+    position: absolute;
+    width: 413px;
+    text-align: center;
+    height: 74px;
+    color: #3781C0;
+}
+.usp-card.active .usp-img {
+    display: block;
+}
+.usp-img {
+    display: none;
+    max-width: 638px;
+    margin: 0 auto;
+}
+.usp-img img {
+    height: auto;
+    max-width: 100%;
+}
+.usp-card.active p {
+    display: block;
+}
+.usp-card p {
+    display: none;
+    color: #6c6c6c;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 1.6em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.usp-box .usp-card:last-child {
+    border-right: 1px solid #3781C0;
+}
+
+.usp-container .portfolio {
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.usp-container .portfolio h2 {
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.portfolio-container {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    padding-bottom: 80px;
+}
+.portfolio-boxes {
+    margin-bottom: 30px;
+    display: flex;
+}
+.portfolio-card {
+    padding: 0 35px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    text-align: left;
+}
+.portfolio-card .card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.portfolio-card .card-img img {
+    max-width: 100%;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.portfolio-card .card-content {
+    background: linear-gradient(92.96deg, #040D10 0%, #206681 58.61%, #0B222A 133.02%);
+    border-radius: 10px;
+    padding: 21px 15px;
+}
+.portfolio-card .card-content h3 a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+} 
+button.slick-arrow {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #509f46;
+    border: 2px solid #509f46;
+    border-radius: 50%; 
+    top: 30%;
+    z-index: 1;
+}
+button.slick-arrow i {
+    color: #fff;
+}
+button.initiative-p {
+    left: 0;
+}
+button.initiative-n {
+    right: 0;
+}
+
+#footer {
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 1024px) {
+    .nav-item a {
+        color: #333;
+    }
+    .nav-item a:hover {
+        color: #333;
+    }
+    .innovation-left h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .usp-box .usp-card h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+    .wrapper-container{
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        width: 100%;
+    }
+    .usp-box .usp-card.active {
+        padding: 20px;
+    } 
+    .usp-box .usp-card {
+        width: 100%;
+        height: fit-content;
+        border-bottom: 1px solid #3781C0;
+        border-left: 0;
+    }
+    .usp-box .usp-card:last-child {
+        border: 0;
+    }
+    .usp-box {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .usp-box .usp-card.active h3 {
+        margin-bottom: 20px;
+    }
+    .usp-box .usp-card h3 {
+        width: 100%;
+        position: static;
+        transform: rotate(0);
+    }
+    .usp-img {
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .innovation-container {
+        flex-direction: column;
+    }
+    .innovation-left {
+        width: 100%;
+        padding: 30px 0 0;
+    }
+    .innovation-left h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .innovation-right {
+        width: 100%;
+        text-align: right;
+    }
+    .innovation-welcome h2 {
+        font-size: 38px;
+    }
+    .welcome-container {
+        flex-direction: column;
+    }
+    .welcome-container-col {
+        flex-direction: column-reverse;
+    }
+    .welcome-container-col .welcome-content,
+    .welcome-content {
+        width: 100%;
+        padding: 10px;
+    }
+    .welcome-content-img {
+        justify-content: center;
+    }
+    button.initiative-p {
+        left: 10px;
+    }
+    button.initiative-n {
+        right: 10px;
+    }
+    .usp-container .usp {
+        padding-top: 40px;
+    }
+    .usp-container .portfolio {
+        margin: 20px 0;
+    }
+    .usp-wrapper h2,
+    .usp-container .portfolio h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 450px) {
+    button.initiative-p {
+        left: 0;
+    }
+    button.initiative-n {
+        right: 0;
+    }
+}
