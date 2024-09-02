@@ -446,4 +446,7 @@ button.initiative-n {
     button.initiative-n {
         right: 0;
     }
+    .usp-box .usp-card h3 {
+        font-size: 18px;
+    }
 }
