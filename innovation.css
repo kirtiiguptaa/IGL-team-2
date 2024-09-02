@@ -449,4 +449,13 @@ button.initiative-n {
     .usp-box .usp-card h3 {
         font-size: 18px;
     }
+    .usp-img {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .usp-box {
+        padding: 0;
+    }
 }
