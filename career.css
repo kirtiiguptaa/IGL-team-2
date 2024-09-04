@@ -1,0 +1,324 @@
+#workforce{
+    padding: 100px 10px 40px 10px;
+    max-width: 1240px ;
+    margin: 0px auto;
+  
+}
+#workforce img{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+#workforce .row{
+    align-items: center !important;
+}
+.workforce-con{
+    padding: 10px;
+}
+.workforce-con h2{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0px 0px 20px 0px;
+}
+.workforce-con h4{
+    font-size: 20px;
+    /* line-height: 64px; */
+    color: #333333;
+    font-weight: 700;
+    margin-left: 10px;
+    
+    
+}
+.workforce-con p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6c6c;
+    font-weight: 400;
+    margin: 30px 0 10px 0;
+}
+
+#work-force-feature{
+    max-width: 1240px;
+    margin: 10px auto;
+    padding: 10px 10px 40px 10px;
+    
+}
+#work-force-feature .workforce-con{
+    position: relative;
+    z-index: 0 !important;
+}
+.g-circle{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #e2f1e6;
+    z-index: -10;
+}
+
+/* work life */
+
+#work-life{
+    background-color: #f0f9fe;
+    padding: 40px 10px 40px 10px;
+}
+.work-life-inner{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.work-life-inner h2{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0px 0px 20px 0px;
+}
+.work-life-inner p{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    color: #6c6c6c;
+    margin: 0 0 30px 0;
+}
+.work-life-inner .row{
+    margin-top: 50px;
+}
+.work-life-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+.work-life-con h4{
+    font-size: 22px;
+    line-height: 30px;
+    color: #242424;  
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.company-goal{
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.company-goal img{
+    width: 100% !important;
+
+}
+
+#sldier-career{
+    background-color:#f5f5f5 !important;
+}
+#sldier-career .company-p{
+    position: absolute;
+    left: 30% !important;
+     top: 103%;
+}
+#sldier-career .company-n{
+    position: absolute;
+     right: 30% !important;
+     top: 103%;
+    
+}
+
+#current-emp{
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 30px 10px 70px 10px;
+    position: relative;
+}
+.emp-inner{
+    padding: 10px;
+}
+.emp-inner p{
+    margin: 20px 0px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #242424;
+    font-weight: 300;
+}
+.emp-inner h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 30px;
+}
+.emp-inner img{
+    border-radius: 10px;
+}
+.emp-p{
+    position: absolute;
+    top: 90% !important;
+    left: 20px;
+}
+.emp-n{
+    position: absolute;
+    top: 90% !important;
+    left:90px;
+}
+
+/* career-stream */
+#career-stream{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 40px 10px;
+
+}
+.emp-inner h2{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0px 0px 20px 0px;
+}
+
+/* career-stream-list */
+#career-stream-list{
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px 10px;
+}
+#career-stream-list h2{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
+.cs-list-inner{
+    padding: 20px 10px;
+    position: relative;
+}
+.cs-list-inner h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+.cs-list-inner p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #6c6c6c;
+    margin: 10px  0 0 0;
+}
+.cs-line{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    width: 50%;
+    height: 1px;
+    background-color: #C4C4C4;
+}
+
+/* career-opening */
+#career-opening{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px 10px 50px 10px;
+}
+#career-opening h2{
+    color: #333333;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0 0 50px 0;
+   
+}
+.career-open-inner{
+    padding: 20px 10px;
+    position: relative;
+    border-bottom: 1px solid #C4C4C4;
+}
+.career-open-inner h4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #242424;
+    margin: 0 0 30px 0;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+}
+.career-open-inner p{
+    font-size: 20px;
+    font-weight: 400;
+    margin:  0 0 0 10px;
+}
+.career-open-icon i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    padding: 6px;
+
+}
+.career-open-inner:hover .career-open-icon i{
+    background-color: #509f46;
+    padding: 8px 9px;
+    border-radius: 50%;
+    color: white;
+}
+
+
+#meet-alumni{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px 10px 90px 10px;
+}
+#meet-alumni h5{
+    font-size: 25px;
+    line-height: 30px;
+    color: #2c6eb5;
+    font-weight: 600;
+}
+#meet-alumni h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+    color: #000;
+}
+
+@media (max-width: 767px) {
+    .workforce-con h2,
+    .work-life-inner h2,
+    .emp-inner h2,
+    #career-stream-list h2,
+    #career-opening h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .career-open-inner h4 {
+        font-size: 26px;
+    }
+    #career-stream {
+        padding: 10px;
+    }
+    #work-force-feature {
+        padding: 10px;
+    }
+    #work-life {
+        padding: 40px 10px;
+    }
+    .work-life-inner p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .emp-p {
+        top: 95% !important;
+        left: 38%;
+    }
+    .emp-n {
+        top: 95% !important;
+        left: 52%;
+    }
+}

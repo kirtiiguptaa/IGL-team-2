@@ -1,0 +1,337 @@
+.overview-sec {
+    position: relative;
+    top: 6.75rem;
+    background-color: #F8F7FF;
+}
+.overview-top {
+    background-color: #2F5B28;
+}
+.overview-top section {
+    display: flex;
+    padding: 0;
+}
+.overview-left {
+    width: 49.95%;
+    padding: 70px 20px 0 10px;
+}
+.overview-left h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.overview-right {
+    width: 50%;
+}
+.overview-right img {
+    max-width: 100%;
+}
+.overview-sec .number-container {
+    margin-top: 0;
+    border: none;
+}
+.overview-sec .about-numbers {
+    gap: 10px;
+    justify-content: flex-start;
+}
+.number-content p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.overview-sec .chairman-container section {
+    border: none;
+}
+.overview-sec .chairman-container {
+    margin-top: 20px;
+}
+.overview-sec .chairman-content {
+    background-color: transparent;
+    margin-top: 0;
+    padding: 0;
+}
+.overview-sec .chairman-name {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.report {
+    background-color: #F1F9FE;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 80px 0px 0px 0px;
+}
+.annual-report {
+    display: flex;
+}
+.report-left {
+    width: 50%;
+}
+.report-content {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.report-content h2 {
+    color: #242424;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.report-content .report-btn {
+    font-family: "Lato", Sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #509F46;
+    border: 1px solid #509F46;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 12px 24px;
+    text-align: center;
+    margin-top: 20px;
+    transition: all .3s;
+}
+.report-content .report-btn:hover {
+    color: #509F46;
+    background-color: transparent;
+}
+.report-right {
+    width: 50%;
+    z-index: 1;
+}
+.report-img {
+    width: 50%;
+    padding: 10px;
+}
+.report-img img {
+    box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+}
+.report-bottom {
+    background-color: #DEF7E5;
+    margin-top: -50px;
+    margin-bottom: 0px;
+    height: 125px;
+    padding: 10px;
+}
+
+.price-container {
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.price-content {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.price-content h2 {
+    color: #242424;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.price-content .price-btns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-content .price-btn {
+    font-family: "Lato", Sans-serif;
+    color: #f9fafb;
+    background-color: #2F5B28;
+    border: 1px solid #2F5B28;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    transition: all .3s;
+}
+.price-content .price-btn:hover {
+    color: #2F5B28;
+    background-color: transparent;
+}
+
+.quick-links {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links h2 {
+    color: #242424;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+
+.links .link-container {
+    margin-top: 40px !important;
+    margin-bottom: 0px;
+    display: flex;
+    padding: 0;
+}
+.link-content {
+    width: calc(100% / 3);
+}
+.link-content-col {
+    background-color: #F1F9FE;
+    padding: 35px;
+    width: 100%;
+}
+.link-content-img {
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+.link-content-col img {
+    width: 64px;
+    height: auto;
+}
+.link-content-col h2 {
+    color: #242424;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.arrow-icon i {
+    font-size: 21px;
+    color: #2C6EB5;
+}
+.link-content-col.second {
+    background-color: #DEF7E5;
+    padding: 0;
+}
+.quick-link-items {
+    list-style-type: none;
+    padding: 0;
+}
+.quick-link-items li {
+    width: 100%;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+.quick-link-items li:hover {
+    background-color: #BFEECD;
+}
+.quick-link-items li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.quick-link-items li h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #242424;
+    margin: 0;
+}
+.quick-link-items li img {
+    margin-right: 10px;
+}
+.quick-link-items li i {
+    font-size: 21px;
+    color: #2C6EB5;
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 1024px) {
+    .link-content-col h2 {
+        font-size: 22px;
+    }
+    .quick-link-items li h4 {
+        font-size: 18px;
+    }
+    .quick-link-items li img {
+        margin-right: 0;
+    }
+    .quick-link-items li {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 850px) {
+    .links .link-container {
+        flex-direction: column;
+    }
+    .link-content {
+        width: 100%;
+    }
+    .link-content-col {
+        padding: 20px;
+    }
+    .quick-link-items li img {
+        margin-right: 10px;
+    }
+    .quick-link-items li {
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .overview-sec {
+        top: 4.7rem;
+    }
+    .overview-top section {
+        flex-direction: column;
+    }
+    .overview-left {
+        width: 100%;
+        padding: 20px;
+    }
+    .overview-left h2 {
+        font-size: 30px;
+    }
+    .overview-left h2 br {
+        display: none;
+    }
+    .overview-right {
+        width: 100%;
+    }
+    .report {
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+    .annual-report,
+    .report-content {
+        flex-direction: column;
+    }
+    .report {
+        text-align: center;
+    }
+    .report-left,
+    .report-right,
+    .report-img {
+        width: 100%;
+    }
+    .report-content h2,
+    .price-content h2,
+    .links h2 {
+        font-size: 36px;
+    }
+    .report-bottom {
+        margin-top: -60px;
+        height: 70px;
+    }
+    .price-container {
+        margin-top: 40px;
+    }
+}
