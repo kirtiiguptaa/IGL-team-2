@@ -10,6 +10,10 @@ html{
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 ::selection {
     color: #fff;
     background: #0274be;
@@ -26,7 +30,7 @@ body {
 .sub-sec {
     position: relative;
     top: 6.7rem;
-    padding: 20px 0;
+    padding: 20px 0 0;
     background-color: #F5F5F5;
 }
 
