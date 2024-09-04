@@ -46,7 +46,7 @@ section {
     border: 1px solid #348F28;
 
 }
-/* .cocktail-active i::before {
+.cocktail-active i::before {
     display: none;
 }
 .cocktail-active i::after {
@@ -57,7 +57,7 @@ section {
 }
 .cocktail-active .download-btn i::after {
     display: none;
-} */
+}
 .shareholder-item{
     max-width: 1200px;
     /* margin: 100px auto 40px auto; */
