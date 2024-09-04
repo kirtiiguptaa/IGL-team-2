@@ -1590,6 +1590,9 @@ padding: 0px 10px;
 }
 
 @media (max-width: 767px) {
+    .dropdown-menu.third {
+        min-width: 320px !important;
+    }
     .sub-sec {
         max-width: 767px;
         top: 4rem;
